@@ -40,5 +40,15 @@ const questions = [
       'Metropolis',
       'Star City',
     ],
+  ),
+  QuizQuestion(
+    'They think I am hiding in the Shadows...\n But',
+    [
+      'I am the Shadows',
+      'I AM BATMAN',
+      'I am Vengence',
+      'I am The Night',
+      'I am Darkness',
+    ],
   )
 ];

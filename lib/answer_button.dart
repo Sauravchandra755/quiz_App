@@ -17,7 +17,7 @@ class AnswerButton extends StatelessWidget {
       onPressed: onTap,
       style: ElevatedButton.styleFrom(
         padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 40),
-        backgroundColor: const Color.fromARGB(255, 121, 30, 139),
+        backgroundColor: Colors.transparent,
         foregroundColor: Colors.white,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(40),
@@ -26,10 +26,7 @@ class AnswerButton extends StatelessWidget {
       child: Text(
         answerText,
         textAlign: TextAlign.center,
-        style: GoogleFonts.lato(
-          color: Colors.white,
-          fontSize: 20
-        ),
+        style: GoogleFonts.lato(color: Colors.white, fontSize: 20),
       ),
     );
   }
